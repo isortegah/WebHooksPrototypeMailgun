@@ -2,7 +2,7 @@
   "name": "WebHooksPrototypeMailgun",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/isortegah/WebHooksPrototypeMailgun",
   "dependencies": {
+    "body-parser": "^1.15.1",
     "dotenv": "^2.0.0",
     "express": "^4.13.4",
     "http": "0.0.0"
