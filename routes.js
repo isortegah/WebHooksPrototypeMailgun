@@ -10,4 +10,5 @@ module.exports = function(app){
     app.use('/api/delivery', require('./server/api/delivery'));
     app.use('/api/dropped', require('./server/api/dropped'));
     app.use('/api/spam', require('./server/api/spam'));
+    app.use('/api/spam', require('./server/api/unsubscribes'));
 }
