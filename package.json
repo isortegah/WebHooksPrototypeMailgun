@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/isortegah/WebHooksPrototypeMailgun",
   "dependencies": {
-    "express": "^4.13.4"
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "http": "0.0.0"
   }
 }
