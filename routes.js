@@ -8,4 +8,5 @@ module.exports = function(app){
     app.use('/api/opened', require('./server/api/opened'));
     app.use('/api/clicked', require('./server/api/clicked'));
     app.use('/api/delivery', require('./server/api/delivery'));
+    app.use('/api/dropped', require('./server/api/dropped'));
 }
