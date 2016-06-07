@@ -9,3 +9,4 @@ Ejecutar el comando:
 ```
 Se debe crear un archivo `.env` con los siguientes datos:
 >1. PORT=
+>2. API_KEY=
