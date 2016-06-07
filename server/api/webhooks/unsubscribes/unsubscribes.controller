@@ -7,4 +7,5 @@ exports.postEvento = function (req , res){
     console.log(req.body['recipient']);
     
     res.status(200);
+    res.end();
 };
